@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Обучение GIT</title>
+    <meta charset="utf-8">
+    <link href="style.css" type="text/css">
+    
+</head>
+<body>
+    <h1>Обучение GIT</h1>
+    <h2>Первые команды</h2>
+    <p>git help</p>
+    <p>git init</p>
+    <p>git status</p>
+    <p>git add "file_name or ."</p>
+    <p>git commit -m "massage"</p>
+    <p>git log</p>
+    <p>git show com_HASH</p>
+    <p>git diff</p>
+    <p>git checkout file_name</p> -откат до последнего коммита
+    <p>git checkout com_HASH file_name</p> - откат но конретного коммита.
+    <p>git diff --staged</p> 
+    <p>git reset HEAD file_name</p> - сбросить один файл из инедексации перед коммитом
+    <p>git commit --amend -m "massage"</p> -изменения в сообщении комммита
+    <p>git rm file_name</p> -удаление файла 
+    <p>git rm --cached file_name</p> -удаление файла из комита без удаления из папки
+    <p>git commit --amend -no-edit</p>
+    <p>git checkout -b yellow-design com_HASH</p> - откат на коммит с созданием метки на него
+    <p>git merge yellow-design -m "massage"</p>
+    <script src="script.js">
+    </script>
+</body>
